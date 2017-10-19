@@ -4,9 +4,7 @@
 * [点击查看项目展示](http://SuDaoJun.github.io/article/)
 
 
-# 说明
-
-##  主要功能点
+#  主要功能点
 
 #### 1. header头部右边文字实现动画
 
