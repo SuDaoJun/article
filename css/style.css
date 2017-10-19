@@ -1,0 +1,301 @@
+/* reset */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","ËÎÌå";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+img {border:0;	vertical-align:middle; }
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#F0F0F0;
+    letter-spacing: 1px;
+}
+a{
+	text-decoration: none;
+}
+/* header */
+.header{
+	height: 98px;
+	width: 1198px;
+	margin: 0 auto;
+	padding: 12px 0;
+	overflow: hidden;
+	background-color: #fff;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+.header .logo{
+	float: left;
+	cursor: pointer;
+	margin-left: 30px;
+}
+.header-pic{
+	width: 627px;
+	height: 98px;
+	line-height: 98px;
+	color: #fff;
+	font-size: 22px;
+	letter-spacing: 10px;
+	font-weight: bold;
+	text-align: center;
+	margin-right: 30px;
+	float: right;
+	background: url("../images/header-pic.jpg") no-repeat;
+	transition: all 1s linear;
+}
+.header-pic:hover{
+	letter-spacing: 3px;
+}
+
+/* nav */
+.nav{
+	width: 1200px;
+	height: 33px;
+	line-height: 33px;
+	margin: 0 auto;
+	background: url("../images/nav-bg.jpg") repeat-x;
+}
+.nav ul li{
+	float: left;
+	text-align: center;
+	line-height: 33px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: url("../images/nav_line.jpg") no-repeat right top;
+}
+.nav ul li a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.nav ul li a:hover{
+	color: black;
+}
+/* content */
+.content{
+	width: 1200px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.content a:hover{
+	color: deepskyblue;
+}
+.content-left{
+	width: 760px;
+	float: left;
+}
+.left-love{
+	height: 340px;
+	margin-bottom: 10px;
+}
+.love-pic{
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.love-pic img{
+	width: 300px;
+	height: 340px;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+.love-pic:hover img{
+	transform: scale(1.1);
+}
+.love-pic span{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	padding-left: 20px;
+	color: #fff;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.love-txt{
+	width: 440px;
+	height: 340px;
+	float: right;
+	background-color: #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+h3{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-indent: 1em;
+	color: black;
+	letter-spacing: 2px;
+	background-color: rgba(51, 51, 51, .3);
+}
+.love-txt p{
+	line-height: 20px;
+	font-size: 14px;
+	text-indent: 1em;
+	padding: 15px;
+	color: #999999;
+	border-bottom: 1px dashed #BBBBBB;
+}
+.love-txt ul{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.love-txt ul li{
+	line-height: 30px;
+	border-bottom: 1px dashed #BBBBBB;
+}
+.love-txt ul li a{
+	display: block;
+	color: rgba(0, 0, 0, .7);
+	font-size: 14px;
+}
+
+.left-friendship, .left-campus, .left-encouragement, .left-philosophy{
+	width: 370px;
+	height: 410px;
+	background-color: #fff;
+	float: left;
+	overflow: hidden;
+}
+.left-friendship{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.left-encouragement{
+	margin-right: 20px;
+}
+.left-campus{
+	margin-bottom: 20px;
+}
+.left-friendship img, 
+.left-campus img, 
+.left-encouragement img, 
+.left-philosophy img{
+	width: 180px;
+	height: 160px;
+	float: left;
+	transition: all 0.3s linear;
+}
+.left-friendship img:hover, 
+.left-campus img:hover, 
+.left-encouragement img:hover, 
+.left-philosophy img:hover{
+	transform: scale(.9);
+}
+.left-friendship span, 
+.left-campus span, 
+.left-encouragement span, 
+.left-philosophy span{
+	width: 160px;
+	float: right;
+	line-height: 25px;
+	font-size: 14px;
+	padding: 5px 15px;
+	color: #999999;
+}
+.left-friendship ul, 
+.left-campus ul, 
+.left-encouragement ul, 
+.left-philosophy ul{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+	padding-top: 15px;
+	padding-left: 15px;
+	border-top: 1px dashed #BBBBBB;
+}
+.left-friendship ul li, 
+.left-campus ul li, 
+.left-encouragement ul li, 
+.left-philosophy ul li{
+	line-height: 30px;
+	border-bottom: 1px dashed #BBBBBB;
+}
+.left-friendship ul li a, 
+.left-campus ul li a, 
+.left-encouragement ul li a, 
+.left-philosophy ul li a{
+	display: block;
+	color: rgba(0, 0, 0, .7);
+	font-size: 14px;
+}
+
+.content-right{
+	width: 380px;
+	height: 1190px;
+	background-color: #fff;
+	float: right;
+}
+.content-right ul li{
+	height: 160px;
+	margin-top: 20px;
+	border-bottom: #EEE dotted 1px;
+	padding-left: 20px;
+}
+.content-right ul li a{
+	width: 150px;
+	height: 145px;
+	float: left;
+	overflow: hidden;
+}
+.content-right ul li a img{
+	width: 150px;
+	height: 145px;
+	transition: all 0.3s linear;
+}
+.content-right ul li a:hover img{
+	transform: scale(1.1);
+}
+.content-right ul li .description{
+	width: 180px;
+	padding: 15px;
+	float: left;
+}
+.description p{
+	font-size: 16px;
+	font-weight: bolder;
+	padding-bottom: 10px;
+	color: black;
+}
+.description span{
+	line-height: 15px;
+	font-size: 14px;
+	color: rgba(51, 51, 51, .3);
+}
+.footer{
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: gray;
+}
+.footer p{
+	font-size: 20px;
+	color: #fff;
+	position: relative;
+}
+.footer p img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 900px; 
+	animation:change 4s infinite alternate;
+	/* animation-direction:alternate; */
+}
+@keyframes change{
+	from{
+		opacity: 0;
+		left: 900px;
+	}
+	to{
+		opacity: 1;
+		left: 720px;
+	}
+}
